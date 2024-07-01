@@ -1,0 +1,21 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-component {
+    border: 1px solid silver;
+    border-bottom: 0;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.list-component:last-child {
+    border-bottom: 1px solid silver;
+}
+
+.list-component:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+}
